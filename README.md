@@ -21,6 +21,20 @@
 
 ---
 
+## 📸 Intip Tampilannya — **Stereo Mode** vs **Split L/R Mode**! 👀✨
+
+Sama-sama **compact (`348 × 520`)**, jarum **VU Meter nggak geser-geser** pas pindah mode, tinggal pilih mau chain Stereo atau split L/R buat crossover/bi-amp! 🔥
+
+<div align="center">
+
+| 🎧 **Stereo Mode** *(Master Chain)* | 🔀 **Split L/R Mode** *(Independent Track L & R)* |
+| :---: | :---: |
+| <img src="assets/screenshot-stereo.png" width="320" alt="Core Rack Stereo Mode" /> | <img src="assets/screenshot-split-lr.png" width="320" alt="Core Rack Split L/R Mode" /> |
+| Rantai plugin serial stereo mulus (`BBE`, `UADx`, `SSL Native`, dll.) lengkap dengan readout latency PDC! 🎛️ | Channel **Track L** & **Track R** terpisah berdampingan dengan **Auto-PDC**, **Mute (`M`)**, **180° Invert (`Ø`)**, & input **In: L+R / L\|R**! ⚡ |
+
+</div>
+
+---
 ## 🤔 Apa Sih **Core Rack** Itu?
 
 Pernah pengen dengerin **YouTube, Spotify, game, atau browser** lewat plugin **VST3 favorit kamu** *(EQ, Compressor, Saturator, Bus FX, dll.)* tapi mager banget buka DAW berat-berat? 😩💤
