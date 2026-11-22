@@ -52,7 +52,7 @@ Pernah pengen dengerin **YouTube, Spotify, game, atau browser** lewat plugin **V
 | 🧩 **Serial VST3 Plugin Rack** | Fast scan `.vst3` di Windows + filter pencarian, pasang multi-slot seri, reorder naik/turun, per-slot bypass, **Global DSP Bypass**, dan buka jendela **native UI** tiap plugin. Kompatibel mulus sama plugin **SSL Native, BBE Sound, UADx**, dll. |
 | 🔀 **Stereo & Split L/R Mode** | Mau proses **Stereo** langsung gas, atau pisah channel **L / R** buat **2-way crossover / bi-amp**? Ada mode **L+R (Mono Sum)** & **L\|R (Discrete)** lengkap sama **Auto-PDC** *(Automatic Plugin Delay Compensation)*, track **Mute (`M`)**, dan **180° Polarity Invert (`Ø`)**. |
 | 🎚️ **MASTER · HW Fader** | Ngatur volume langsung ke **Windows Hardware Endpoint L/R** (bisa **Link** atau independent L/R), jadi jalur DSP & jarum VU meter tetap kerja di headroom optimal. |
-| 📟 **Dual Analog VU Meter** | Jarum VU bergaya vintage backlit (`0 VU = -14 dBFS`) dengan 80 ms RMS ballistics, redaman jarum halus, dan LED Peak indikator L/R tersendiri. |
+| 📟 **Dual Analog VU Meter** | Membaca **Output (Post-DSP, Pre-`MASTER · HW`)** setelah seluruh VST3 chain & hard clamp `[-1.0, 1.0]`. Jarum VU bergaya vintage backlit (`0 VU = -14 dBFS`) dengan 80 ms RMS ballistics, redaman halus, dan LED Peak L/R tersendiri — jadi levelnya tidak berubah saat fader hardware digeser. |
 | 🪟 **Compact Glass UI & System Tray** | Panel mungil `348 × 520` translucent dark glass dengan mode **Always-on-Top**, kontrol cepat lewat klik kanan **System Tray**, dan otomatis nyimpan seluruh konfigurasi & preset plugin VST3 kamu. |
 | 🔄 **In-App Auto-Updater** | Cek update tinggal klik **About → Check**! Download diverifikasi **SHA-256** di background tanpa memutus audio yang lagi jalan. |
 
@@ -71,7 +71,7 @@ Pernah pengen dengerin **YouTube, Spotify, game, atau browser** lewat plugin **V
    ├── Mode Stereo    : Chain Plugin 1 ──► 2 ──► ... ──► Limiter Guard
    └── Mode Split L/R : L+R / L|R ──► Track L & R + Auto-PDC + Ø Invert
         │
-        ├──► 📟 Analog VU Meter + Peak Telemetry
+        ├──► 📟 Analog VU Meter (Output Post-DSP) + Peak Telemetry
         │
         ▼  (MASTER · HW Endpoint Volume Control)
 🔊 Speaker / DAC / Audio Interface Kamu!
